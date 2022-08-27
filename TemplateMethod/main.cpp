@@ -34,7 +34,7 @@ int main()
 	// 应用程序不需要实现程序执行流程，调用定义好的run流程即可
 	library* app = new application();
 	app->run();
-	delete app
+	delete app;
 
 
 	return 0;
